@@ -1,0 +1,21 @@
+---
+title: "My Rtutorial"
+author: "C. Roex"
+output: html_document
+---
+
+Test
+
+
+```{r echo=TRUE, eval=TRUE, tidy=TRUE}
+tmp = cor(ProjectData[,correlation_columns])
+print(round(cor(tmp),2))
+```
+
+
+
+```{r echo=TRUE, eval=TRUE, tidy=TRUE}
+getwd()
+setwd("Exercises/Exerciseset1/")
+list.files()
+```
